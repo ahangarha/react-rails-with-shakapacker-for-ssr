@@ -1,24 +1,16 @@
-# README
+# This is an experimental project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a test project to use react-rails + shakapacker for SSR
 
-Things you may want to cover:
+## To run
 
-* Ruby version
+After installing ruby and js dependencies (using `bundle install` and
+`yarn install`), run the following commands in parallel:
 
-* System dependencies
+```
+# in shell 1
+rails s
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# in shell 2 
+./bin/webpacker-dev-server
+```
