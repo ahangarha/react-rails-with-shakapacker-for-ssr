@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/reactjs/react-rails.git
-  revision: 7f20fe870772f60b05df43524cb0337301bc41da
-  ref: 7f20fe8
+  revision: 96b7142012b494f5fe886e79e4c91806b071e430
+  ref: 96b7142
   specs:
     react-rails (2.6.2)
       babel-transpiler (>= 0.7.0)
