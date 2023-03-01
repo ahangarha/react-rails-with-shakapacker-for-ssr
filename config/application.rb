@@ -18,5 +18,7 @@ module ReactRailsWithShakapackerForSsr
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    React::ServerRendering::BundleRenderer.asset_container_class = React::ServerRendering::WebpackerSplitChunksManifestContainer
   end
 end
