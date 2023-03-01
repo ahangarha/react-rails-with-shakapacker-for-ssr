@@ -63,4 +63,4 @@ group :test do
 end
 
 gem "shakapacker", "= 6.5"
-gem "react-rails", github: "reactjs/react-rails"
+gem "react-rails", github: "reactjs/react-rails", branch: "improve-ssr-ryan-approach"
